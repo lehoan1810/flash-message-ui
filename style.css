@@ -25,7 +25,6 @@ body {
 	max-width: 760px;
 	margin: 0 auto;
 	flex-wrap: wrap;
-	padding: 10px 10px;
 }
 .card-success::before {
 	content: "";
@@ -153,5 +152,6 @@ button:hover {
 @media screen and (max-width: 767px) {
 	.card-success {
 		justify-content: center;
+		padding: 10px;
 	}
 }
